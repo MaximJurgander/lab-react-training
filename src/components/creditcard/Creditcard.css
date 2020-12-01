@@ -1,0 +1,16 @@
+.Creditcard-container {
+  display: flex;  
+  justify-content: center;
+}
+  
+.Creditcard {
+  width: 300px;
+  height: 150px;
+  border: 1px solid black;
+  margin: 20px;
+  background-color: #ddbb55;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+}
+
