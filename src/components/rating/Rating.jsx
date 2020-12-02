@@ -4,7 +4,7 @@ import './Rating.css'
 const Rating = (props) => {
   const { children } = props;
   let starRounded = Math.round(children);
-  let stars =  '★'.repeat(starRounded) + ('☆☆☆☆☆').slice(0, 5);
+  let stars =  '★'.repeat(starRounded) + ('☆☆☆☆☆').slice(starRounded, 5);
   return (
     <div className="Rating">
       {stars}
@@ -13,3 +13,5 @@ const Rating = (props) => {
 }
 
 export default Rating
+
+
